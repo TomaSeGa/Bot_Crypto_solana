@@ -5,7 +5,7 @@ import json
 import time
 
 # Define your CoinGecko API key
-api_key = 'CG-FRVJAw3XgaQxSW2mocyyrR3y'
+api_key = '?????????????'
 # 7425610970:AAHEnp2i2q6PQDLqby6ySGTMhXfoggfdyEM token
 
 # Function to fetch cryptocurrency data from CoinGecko
@@ -129,7 +129,7 @@ async def solana_daily_update(update: Update, context: ContextTypes.DEFAULT_TYPE
             await update.message.reply_text(f'Sorry, I could not fetch the data for {crypto}. Please check the cryptocurrency name and try again.')
         time.sleep(450)
 
-app = ApplicationBuilder().token('7425610970:AAHEnp2i2q6PQDLqby6ySGTMhXfoggfdyEM').build()
+app = ApplicationBuilder().token('??????????????????????????').build()
 
 app.add_handler(CommandHandler("start", start))
 app.add_handler(CommandHandler("data", data))
