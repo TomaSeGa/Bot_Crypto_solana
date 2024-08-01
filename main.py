@@ -6,7 +6,6 @@ import time
 
 # Define your CoinGecko API key
 api_key = '?????????????'
-# 7425610970:AAHEnp2i2q6PQDLqby6ySGTMhXfoggfdyEM token
 
 # Function to fetch cryptocurrency data from CoinGecko
 def get_crypto_data(crypto):
